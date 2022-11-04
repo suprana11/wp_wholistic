@@ -1,0 +1,109 @@
+/*
+
+Theme Name: Hello Elementer Child
+Theme URI: https://example.com/hello-elementor-child/
+Description: hello-elementor Child Theme
+
+
+Author: Anna Fitzgerald
+
+
+Author URI: https://example.com
+
+
+Template: hello-elementor
+
+
+Version: 1.0.0
+
+
+License: GNU General Public License v2 or later
+
+
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+
+Tags: two-column, responsive-layout
+
+
+Text Domain: helloelementorchild
+
+*/
+.filter-buttons {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	/* flex-wrap: wrap; */
+}
+
+.filter-buttons button {
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	font-size: 16px;
+	color: #88898D;
+	border-width: 0;
+	font-weight: 300;
+	padding: 6px 22px;
+}
+
+.page-header {
+	display: none;
+}
+
+#menu-1-d5a3734 li a {
+	border-radius: 37px !important;
+	padding: 8px 25px !important;
+}
+
+.more-pages button {
+	padding: 0.2rem 0.4rem;
+	border-color: #fcd0c3;
+	box-shadow: 1px 1px 0px 0px #fcd0c3;
+	background-color: white;
+	font-size: 13px;
+}
+
+@media (max-width: 800px) and (min-width: 700px) {
+	#search-tab {
+		left: 77px;
+	}
+}
+
+label {
+	color: white;
+	font-family: "Oswald", Sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.mail-form {
+	display: flex;
+}
+
+.mail-form form input[type="text"] {
+	padding: 1px;
+}
+
+.mail-form p .wpcf7-form-control {
+	text-indent: -9999px;
+}
+
+.mail-form p .wpcf7-form-control:before {
+	content: " ";
+}
+
+.elementor-widget-container .about-para {
+	font-size: 18px;
+}
+
+.menu-item.current-menu-item a.hfe-menu-item {
+	border-radius: 37px;
+	padding: 12px 1px;
+}
+
+.footer-items {
+	display: flex;
+	justify-content: flex-end;
+}
+
+/*# sourceMappingURL=style.css.map */

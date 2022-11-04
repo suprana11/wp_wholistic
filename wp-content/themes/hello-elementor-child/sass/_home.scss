@@ -1,0 +1,108 @@
+//  * :not(i):not(svg):not(h1):not(h2):not(h3){
+//     font-size: 20px;
+// }
+// * :not(i,svg,h1,h2,h3) {
+//     font-size: 20px;
+// }
+
+
+.filter-buttons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    /* flex-wrap: wrap; */
+    button {
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        font-size: 16px;
+        color: #88898D;
+        border-width: 0;
+        font-weight: 300;
+        padding: 6px 22px;
+    }
+}
+.page-header {
+    display: none;
+}
+#menu-1-d5a3734 li a{
+    border-radius: 37px!important;
+    padding: 8px 25px!important;
+}
+
+// .home-cards {
+//     box-shadow: 8px 8px #fcd0c3;
+//     overflow:hidden;
+// }
+.more-pages {
+    button {
+        padding: 0.2rem 0.4rem;
+        border-color: #fcd0c3;
+        box-shadow: 1px 1px 0px 0px #fcd0c3;
+        background-color: white;
+        font-size: 13px;
+    }
+}
+@media(max-width:800px)and (min-width:700px){
+    #search-tab {
+        left: 77px;
+    }
+}
+label {
+    color: white;
+    font-family: "Oswald", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+.mail-form {
+    display: flex;
+    form input[type="text"] {
+        padding: 1px;
+    }
+    p {
+        .wpcf7-form-control {
+            text-indent: -9999px;
+            &:before {
+                content: " ";
+            }
+        }
+    }
+}
+.elementor-widget-container {
+    .about-para {
+        font-size: 18px;
+    }
+}
+.menu-item.current-menu-item a.hfe-menu-item {
+    border-radius: 37px;
+    padding: 12px 1px;
+}
+
+// *:hover { 
+//     outline:1px blue solid;
+//   } 
+//   @media (min-width:1050px) {
+//     .fa-search {
+//         right: 45px;
+//         font-size: 14px;
+//     }
+//   }
+
+
+// @media screen and (max-width: 768px) { 
+//     .hfe-nav-menu__toggle  {
+//          display:none !important; 
+//      } 
+//      .hfe-nav-menu__layout-horizontal { 
+//         display:block !important;
+//    } 
+//   .responsive-logo { 
+//     float:left !important; 
+//   } 
+//   nav.navbar-collapse ul li { 
+//    width: auto !important; margin-left: 10px !important; border-bottom: none !important; 
+//   } 
+ // }
+ .footer-items {
+    display: flex;
+   justify-content: flex-end;
+ }
